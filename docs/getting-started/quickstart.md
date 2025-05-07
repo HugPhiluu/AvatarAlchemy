@@ -51,7 +51,6 @@ If you're using Alcom, it handles more automated dependency management than VCC 
 - Import the following into Unity **in this order**:
   1. Shader (Poiyomi or lilToon, whichever your avatar needs)
   2. Modular Avatar
-  3. Avatar Optimizer (optional for later)
 
 :::caution
 Install shaders *before* importing the avatar. Many avatars reference shader files on import, and missing them causes broken materials.
