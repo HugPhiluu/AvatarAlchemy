@@ -6,21 +6,19 @@ sidebar_position: 3
 import CurrentUnityVersion from '@site/src/components/UnityVersionedText.js';
 import UnityVersionedLink from '@site/src/components/UnityVersionedLink.js';
 
-# ⚡ Quick Start
+# Quick Start
 
-> **From Booth to VRChat in under 30 minutes.**
-> **A straight path from avatar download to in-game use.**
-
-:::tip
-This quick start assumes you're using a `.unitypackage` avatar purchased from **Booth.pm** and want it running in VRChat with no frills.
+:::danger[Important]
+This quickstart is only for a straight upload to VRChat.\
+This guide assumes you're using a `.unitypackage` avatar purchased from **Booth.pm** and want it running in VRChat with no frills.
 :::
 
 
 ---
 
-## 🧾 Requirements
+## Requirements
 
-### 🧰 Tools
+### Tools
 
 | Tool            | Purpose                              | Source                                      |
 |-----------------|--------------------------------------|---------------------------------------------|
@@ -34,9 +32,9 @@ This quick start assumes you're using a `.unitypackage` avatar purchased from **
 
 ---
 
-## 📦 Step-by-Step
+## Step-by-Step
 
-### 1. 🧱 Create Project
+### 1. Create Project
 
 - Open **VCC** or **Alcom**
 - Create new avatar project
@@ -48,19 +46,18 @@ This quick start assumes you're using a `.unitypackage` avatar purchased from **
 If you're using Alcom, it handles more automated dependency management than VCC and is built by the same dev as Modular Avatar. Either tool works.
 :::
 
-### 2. 📥 Install Dependencies
+### 2. Install Dependencies
 
 - Import the following into Unity **in this order**:
-  1. VRChat SDK (if not preloaded by template)
-  2. Shader (Poiyomi or lilToon, whichever your avatar needs)
-  3. Modular Avatar
-  4. Avatar Optimizer (optional for later)
+  1. Shader (Poiyomi or lilToon, whichever your avatar needs)
+  2. Modular Avatar
+  3. Avatar Optimizer (optional for later)
 
 :::caution
 Install shaders *before* importing the avatar. Many avatars reference shader files on import, and missing them causes broken materials.
 :::
 
-### 3. 🛍️ Import Avatar
+### 3. Import Avatar
 
 - Drag the `.unitypackage` from Booth into the Unity project
 - Wait for all assets to load  
@@ -70,7 +67,7 @@ Install shaders *before* importing the avatar. Many avatars reference shader fil
 If you can’t find the prefab, try searching for "prefab" in the project window or look in folders named `Avatar`, `Model`, or the creator’s name.
 :::
 
-### 4. 🧹 Fix Errors (if any)
+### 4. Fix Errors (if any)
 
 - Check Console: red = critical, yellow = warnings  
 - Missing shaders: reimport or manually fix materials  
@@ -80,7 +77,7 @@ If you can’t find the prefab, try searching for "prefab" in the project window
 Many errors on import are harmless (like expression parameters already existing). Focus on red errors first.
 :::
 
-### 5. 🚀 Upload
+### 5. Upload
 
 - Open `VRChat SDK → Show Control Panel → Builder`  
 - Resolve errors if present  
@@ -93,7 +90,7 @@ If you see “You must fix the following errors first” — scroll up and read 
 
 ---
 
-## ✅ You're Done
+## You're Done
 
 - In VRChat, open `Avatars → Uploads`  
 - Select your avatar  

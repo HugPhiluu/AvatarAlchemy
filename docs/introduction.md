@@ -4,13 +4,13 @@ title: Introduction
 sidebar_position: 1
 ---
 
-# 🧭 Introduction
+# Introduction
 
 > **“You don't need permission to understand your avatar.”**
 
 ---
 
-## 🎯 Purpose of the Documentation
+## Purpose of the Documentation
 
 This guide exists to make **VRChat avatar creation** understandable, practical, and accessible—especially for people who feel overwhelmed by existing tutorials.
 
@@ -24,19 +24,19 @@ No more blindly copying setups. No more broken avatars you can’t fix. You’ll
 
 ---
 
-## 🧑‍🎓 Target Audience
+## Target Audience
 
 This guide is for:
 
-- 🟢 **Absolute beginners** — starting from scratch  
-- 🟡 **Partial users** — you’ve edited avatars but don’t understand how they work  
-- 🔵 **Intermediate creators** — looking for a more scalable, modern approach  
-- 🟣 **Personal users** — not sellers, just people who want to build avatars for themselves  
-- 🛠️ **Tool-aware users** — interested in Modular Avatar, AAO, VCC, lilToon, Poiyomi
+- **Absolute beginners** — starting from scratch  
+- **Partial users** — you’ve edited avatars but don’t understand how they work  
+- **Intermediate creators** — looking for a more scalable, modern approach  
+- **Personal users** — not sellers, just people who want to build avatars for themselves  
+- **Tool-aware users** — interested in Modular Avatar, AAO, VCC, lilToon, Poiyomi
 
 ---
 
-## 🧠 Philosophy
+## Philosophy
 
 Too many tutorials focus on **"what to click"**. This one shows you **"why it matters."**
 

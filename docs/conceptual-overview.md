@@ -4,15 +4,16 @@ title: Conceptual Overview
 sidebar_position: 2
 ---
 
-# 🧩 Conceptual Overview
+# Conceptual Overview
 
 > **Before touching Unity, understand what you're building.**
 
 ---
 
-## 🧍 What Is a VRChat Avatar?
+## What Is a VRChat Avatar?
 
-A **VRChat avatar** is a Unity-based 3D humanoid model configured with VRChat-specific components. It is:
+A **VRChat avatar** is a Unity-based 3D humanoid model configured with VRChat-specific components. \
+It is:
 
 - Your **presence** in the world  
 - A bundle of **meshes, bones, materials, and logic**  
@@ -22,7 +23,7 @@ At its core, it's not just a character—it's a programmable object built on a v
 
 ---
 
-## 🧱 Key Components
+## Key Components
 
 | Component       | Purpose                                                                 |
 |----------------|-------------------------------------------------------------------------|
@@ -35,26 +36,26 @@ At its core, it's not just a character—it's a programmable object built on a v
 
 ---
 
-## ⚙️ Workflow Summary
+## Workflow Summary
 
 > This is the high-level pipeline we’ll walk through in detail later.
 
-1. **🛍️ Acquire an avatar**  
+1. **Acquire an avatar**  
    Buy and download a Unity package from [Booth.pm](https://booth.pm)
 
-2. **📦 Set up your Unity project**  
+2. **Set up your Unity project**  
    Use **VCC** or **Alcom**, import required tools and shaders
 
-3. **🧹 Clean up the project**  
+3. **Clean up the project**  
    Fix errors, remove clutter, verify materials and rigging
 
-4. **🧩 Customize**  
+4. **Customize**  
    Add outfits, create toggles, set up menus using **Modular Avatar**
 
-5. **🔍 Test and refine**  
+5. **Test and refine**  
    Check functionality with **Build & Test** inside Unity
 
-6. **🚀 Upload**  
+6. **Upload**  
    Push your avatar to VRChat for in-game use
 
 ---
