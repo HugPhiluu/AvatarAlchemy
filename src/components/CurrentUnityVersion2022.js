@@ -4,4 +4,3 @@ export const currentUnityVersion = {
     "patch" : "2022.3.22",
     defaultVersion: "2022.3.22f1"
   };
-  
